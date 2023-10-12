@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>JOB APPLICATION</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          job application
+        </h1>
+        <form method="POST">{% csrf_token %}
+          <div class="form_container">
+            <div class="form_contral">
+              <lable form='full_name'>Full Name</lable>
+              <input
+              id='full_name'
+              name='name'
+              placeholder="Enter the full name"
+              required=""
+              />
+          <div class="form_container">
+            <div class="form_contral">
+              <lable form='full_address'>Full Addrass</lable>
+              <input
+              id='full_addrass'
+              name='address'
+              adrasss='full_address'
+              placeholder="Enter the full address"
+              required=""
+              />
+          <div>
+            <div class='form_contral'>
+              <lable form='email'>E-mail</lable>
+              <input
+              type='email'
+              name='email'
+              placeholder="Enter the E-mail"
+              required=""
+              />
+            </div>
+            <div>
+              <div class='form_contral'>
+                <lable form='phone number'>PHONE NUMBER</lable>
+                <input
+                type='integer'
+                name='phone'
+                placeholder="Enter the phone number"
+                required=""
+                />
+              </div>
+            <div>
+              <div class="form_container">
+                <div class="form_contral">
+                  <lable form='full_name'>ABOUT</lable>
+                  <input
+                  id='about'
+                  name='about'
+                  placeholder="Enter the about yourself"
+                  required=""
+                  />
+          </div>
+          <div>
+           <!-- <div class='form_contral'>
+              <lable form='jab role'>JOB ROLE</lable>
+              <select id='job_role'name='job_role'required>
+                <option value=''>select job role</option>
+                <option value='ceo'>CEO</option>
+                <option value='M.D'>M.D</option>  />-->
+              
+              </select>
+            </div>
+          </div>
+          <div>
+              <!--<div class='form_contral'>
+              <lable for='date'> D_O_B</lable>
+              <input placeholder="Enter the your date of birth" type='text'id='date'name=' D_O_B'/>
+            </div>
+          </div>
+           <div>
+          <div class='form_contral'>
+              <lable for='date'>Gender</lable>
+              <input type='radio'name='gender'>MALE
+              <input type='radio'name='gender'>FEMALE
+            </div>
+          </div>-->
+          <!--<div>
+           
+           <div class='form_contral'>
+              <lable for='upload'>upload your dgree</lable>
+              <input
+              type='file'
+              id='upload'
+              name='upload'
+              required />
+            </div>
+          </div>
+          <div>-->
+            
+              <button type="" class="favorite styled" type="submit">apply now</button>
+              
+            </div>
+          </div>
+          </div>
+          
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+      
+</body>
+</html>
